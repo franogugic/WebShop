@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+main {
+    height: calc(100vh - 96px);
+    padding-top: 96px;
+}
