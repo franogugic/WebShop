@@ -43,7 +43,7 @@ const Shop = () => {
             {loading ? <p>Loading...</p> : 
                 <div className="grid grid-cols-4 gap-4">
                     {products.map((product) => (
-                        <SingleProductWrapper product={product}/>
+                        <SingleProductWrapper product={product} key={product.id} />
                     ))}
                 </div>
             }
